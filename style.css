@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 990px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+td {
+    line-height: 30px;
+    width: 30px;
+}
+
+.tile-space, .tile-wall, .tile-goal, .entity-player .entity-block, .entity-block-goal {
+    height: 30px;
+    width: 30px;
+}
+
+.tile-space {
+    background-color: rgb(63, 90, 124);
+}
+
+.tile-wall {
+    background-color: rgb(0, 0, 0);
+}
+
+.tile-goal {
+    background-color: rgb(196, 31, 31);
+    border-radius: 50%;
+}
+
+.entity-player {
+    background-color: rgb(40, 199, 0);
+    border-radius: 50%;
+}
+
+.entity-block {
+    background-color: rgb(143, 95, 56);
+}
+
+.entity-block-goal {
+    background-color: rgb(179, 64, 36);
+}
